@@ -1,8 +1,6 @@
-
 function receivesAFunction(callback) {
   callback();
 }
-
 
 function returnsANamedFunction() {
   function namedFunction() {
@@ -11,9 +9,9 @@ function returnsANamedFunction() {
   return namedFunction;
 }
 
-
 function returnsAnAnonymousFunction() {
   return function() {
     return "I am anonymous";
   };
 }
+
